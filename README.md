@@ -1,7 +1,7 @@
 # CPPLineCount
 A test for standard file system library: Simple and reasonably accurate cpp source line counter.
 
-Counts only physical source lines. No effort if made to determine logical lines of code. Empty lines, 
+Counts only physical source lines. No effort is made to determine logical lines of code. Empty lines, 
 comment lines (lines starting with "//"), and block comment lines (lines between "/\*" and "*/") are 
 counted separately and reported accordingly. 
 
