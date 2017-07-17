@@ -24,9 +24,10 @@ int main()
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src\\NLEng")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\software_development\\libraries\\analysis & design\\PryStructuralModel\\src\\StructuralModelLib")};
-    //std::vector<fs::path> source_paths = { fs::path("C:\\PRY_Paylasim\\Rebar 1")};
-    //std::vector<fs::path> source_paths = { fs::path("C:\\PRY_Paylasim\\Rebar 1")};
+    //std::vector<fs::path> source_paths = {fs::path("C:\\PRY_Paylasim\\Rebar 1")};
+    //std::vector<fs::path> source_paths = {fs::path("C:\\PRY_Paylasim\\Rebar 1")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\deleted modules\\source\\comosys")};
+    std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\source\\connection design")};
     /*std::vector<fs::path> source_paths = {
         //Baris Irhan 
         fs::path("D:\\software_development\\libraries\\comosys\\plugins\\Rebar 1"),
@@ -37,10 +38,10 @@ int main()
         fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_rfcd.h"),
         fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_rfcd.cpp")
     };*/
-    std::vector<fs::path> source_paths = {
+    /*std::vector<fs::path> source_paths = {
         fs::path("D:\\dev\\progs\\CPPLineCount\\CPPLineCount\\cpp_line_count.h"),
         fs::path("D:\\dev\\progs\\CPPLineCount\\CPPLineCount\\cpp_line_count.cpp")
-    };
+    };*/
 
     char c = 0;
     std::cout << "display file names? (Y/N):";
