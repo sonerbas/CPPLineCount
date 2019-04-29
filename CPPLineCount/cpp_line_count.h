@@ -27,7 +27,7 @@ struct File_lcount_info
     }
 };
 
-std::pair<File_lcount_info, int> count_cpp_lines(const std::tr2::sys::path& a_path);
+std::pair<File_lcount_info, int> count_cpp_lines(const std::filesystem::path& a_path);
 
 extern bool display_fnames;
 

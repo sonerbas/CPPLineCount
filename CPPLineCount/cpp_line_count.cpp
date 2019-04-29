@@ -8,13 +8,13 @@
 
 bool display_fnames = false;
 
-namespace fs = std::tr2::sys;
+namespace fs = std::filesystem;
 typedef std::string::iterator Str_iter;
 
 File_lcount_info count_cpp_lines_file(const std::string& fname);
 std::pair<File_lcount_info, int> count_cpp_lines_folder(const fs::path& dir);
 
-std::pair<File_lcount_info, int> count_cpp_lines(const std::tr2::sys::path& a_path)
+std::pair<File_lcount_info, int> count_cpp_lines(const std::filesystem::path& a_path)
 {
     if (fs::exists(a_path)==false) 
         return std::pair<File_lcount_info,int>();
@@ -23,7 +23,7 @@ std::pair<File_lcount_info, int> count_cpp_lines(const std::tr2::sys::path& a_pa
     return count_cpp_lines_folder(a_path);
 }
 
-std::pair<File_lcount_info, int> count_cpp_lines_folder(const std::tr2::sys::path& dir)
+std::pair<File_lcount_info, int> count_cpp_lines_folder(const std::filesystem::path& dir)
 {
     File_lcount_info total;
     int num_files = 0;

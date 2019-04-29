@@ -8,12 +8,13 @@
 
 int main()
 {
-    namespace fs = std::tr2::sys;  //filesystem library
+    namespace fs = std::filesystem;  //filesystem library
     using namespace std;
 
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\Console_VS2015\\Console_VS2015\\data_race.cpp")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\Users\\sbas.PROKON\\Desktop\\Test.cpp")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\source\\comosys")};
+    //std::vector<fs::path> source_paths = {fs::path("C:\\Users\\sbas.PROKON\\Desktop\\usrc")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\plugin source")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\deleted modules\\source\\comosys")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\deleted modules\\source")};
@@ -21,22 +22,19 @@ int main()
     //std::vector<fs::path> source_paths = {fs::path("D:\\software_development\\libraries\\comosys\\plugins")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\OpenSees.2.2.2\\OpenSees\\SRC")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\Users\\sbas.PROKON\\Desktop\\CALWinExp")};
-    //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src")};
+    std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src\\NLEng")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\software_development\\libraries\\analysis & design\\PryStructuralModel\\src\\StructuralModelLib")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\PRY_Paylasim\\Rebar 1")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\PRY_Paylasim\\Rebar 1")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\deleted modules\\source\\comosys")};
-    std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\source\\connection design")};
+    //std::vector<fs::path> source_paths = {fs::path("D:\\Comosys 3.0\\source\\connection design")};
     /*std::vector<fs::path> source_paths = {
         //Baris Irhan 
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\Rebar 1"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\UI"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\irhan"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_bi.h"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_bi.cpp"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_rfcd.h"),
-        fs::path("D:\\software_development\\libraries\\comosys\\plugins\\commonmethods\\commonmethods_rfcd.cpp")
+        fs::path("D:\\comosys 3.0\\plugin source\\Rebar 3"),
+        fs::path("D:\\comosys 3.0\\plugin source\\Rebar 4"),
+        fs::path("D:\\comosys 3.0\\plugin source\\Common_Rebar"),
+        fs::path("D:\\comosys 3.0\\plugin source\\Common_Rebar")
     };*/
     /*std::vector<fs::path> source_paths = {
         fs::path("D:\\dev\\progs\\CPPLineCount\\CPPLineCount\\cpp_line_count.h"),
