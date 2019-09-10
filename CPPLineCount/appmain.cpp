@@ -22,7 +22,7 @@ int main()
     //std::vector<fs::path> source_paths = {fs::path("D:\\software_development\\libraries\\comosys\\plugins")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\OpenSees.2.2.2\\OpenSees\\SRC")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\Users\\sbas.PROKON\\Desktop\\CALWinExp")};
-    std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src")};
+    //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\dev\\progs\\NLEng\\src\\NLEng")};
     //std::vector<fs::path> source_paths = {fs::path("D:\\software_development\\libraries\\analysis & design\\PryStructuralModel\\src\\StructuralModelLib")};
     //std::vector<fs::path> source_paths = {fs::path("C:\\PRY_Paylasim\\Rebar 1")};
@@ -40,6 +40,14 @@ int main()
         fs::path("D:\\dev\\progs\\CPPLineCount\\CPPLineCount\\cpp_line_count.h"),
         fs::path("D:\\dev\\progs\\CPPLineCount\\CPPLineCount\\cpp_line_count.cpp")
     };*/
+    std::vector<fs::path> source_paths = {
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\common"),
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\anldesign"),
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\appmain"),
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\core"),
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\edlserver"),
+        fs::path("D:\\Comosys 3.0\\Source\\cms3\\viewop")
+    };
 
     char c = 0;
     std::cout << "display file names? (Y/N):";

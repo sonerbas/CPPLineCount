@@ -83,7 +83,6 @@ inline Str_iter find_block_end(Str_iter f, Str_iter l)
 
 inline bool is_line_comment(Str_iter f, Str_iter l)
 {
-    assert(std::distance(f, l) >= 2);
     return (std::distance(f, l)>=2 && *f=='/' && *(f + 1)=='/');
 }
 
